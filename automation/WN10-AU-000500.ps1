@@ -21,7 +21,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\STIG-ID-WN10-AU-000500.ps1 
+    PS C:\> .\WN10-AU-000500.ps1 
 #>
 
 # Define the registry path and the key-value pair
