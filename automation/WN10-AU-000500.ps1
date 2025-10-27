@@ -6,7 +6,7 @@
     Author          : Mikey Nuñez
     GitHub          : github.com/mikeyn1gm
     Date Created    : 2025-03-03
-    Last Modified   : 2025-03-03
+    Last Modified   : 2025-10-27
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
@@ -21,7 +21,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
+    PS C:\> .\STIG-ID-WN10-AU-000500.ps1 
 #>
 
 # Define the registry path and the key-value pair
