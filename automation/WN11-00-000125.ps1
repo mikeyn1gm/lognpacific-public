@@ -1,8 +1,11 @@
 <#
 .SYNOPSIS
     This PowerShell script disables Windows Copilot. 
-(Note: The disabled state won't be reflected within Local Group Policy Editor as that requires a manual change within the GUI. "GPEDIT’s State column doesn’t read the live registry; it reads the local policy database (%SystemRoot%\System32\GroupPolicy\User\Registry.pol for User Configuration). When you write directly to
-HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot\TurnOffWindowsCopilot=1, Windows enforces the policy, but GPEDIT still says “Not configured” unless the corresponding entry also exists in Registry.pol")
+    
+(Note: The disabled state won't be reflected visually within Local Group Policy Editor as that requires a manual change within the GUI but Copilot does get disabled. 
+"GPEDIT’s State column doesn’t read the live registry; it reads the local policy database (%SystemRoot%\System32\GroupPolicy\User\Registry.pol for User Configuration). 
+When you write directly to HKCU\Software\Policies\Microsoft\Windows\WindowsCopilot\TurnOffWindowsCopilot=1, Windows enforces the policy, 
+but GPEDIT still says “Not configured” unless the corresponding entry also exists in Registry.pol")
 
 .NOTES
     Author          : Mikey Nuñez
